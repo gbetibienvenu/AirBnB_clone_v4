@@ -1,7 +1,7 @@
 // fetches and prints how to say “Hello” depending on the language
 
 $(document).ready(function () {
-  const url = 'http://0.0.0.0:5001/api/v1/status/';
+  const url = 'http://' + window.location.hostname + ':5001/api/v1/status/';
   $.get(url, function (response) {
     if (response.status === 'OK') {
       $('DIV#api_status').addClass('available');
