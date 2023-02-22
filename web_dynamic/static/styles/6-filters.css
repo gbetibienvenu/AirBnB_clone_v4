@@ -64,6 +64,11 @@ button:hover {
     max-height: 300px;
 }
 
+.popover.checkbox {
+	margin-left: 10px;
+}
+	
+
 .popover::-webkit-scrollbar{
     width: 0px;
 }
