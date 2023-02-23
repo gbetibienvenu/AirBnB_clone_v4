@@ -22,7 +22,7 @@ $(document).ready(function () {
 
   const request = 'http://0.0.0.0:5001/api/v1/places_search/';
   $.post(request,
-  	{
+    {
       headers: 'Content-Type: application/json',
       data: {}
     },
