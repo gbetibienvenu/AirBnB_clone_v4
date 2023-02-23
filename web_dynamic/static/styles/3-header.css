@@ -1,6 +1,6 @@
 header {
   align-items: flex-end;
-	background-color: #fff;
+	background-color: #ffffff;
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
 	background-position: 20px 50%;
@@ -20,6 +20,6 @@ header {
     margin-right: 30px;
 }
 
-header .available {
-    background-color: #ff545f;
+#api_status.available {
+    background-color: #ff545f!important;
 }
