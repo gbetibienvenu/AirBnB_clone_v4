@@ -17,9 +17,9 @@ $(document).ready(function () {
     }
     const locations = Object.assign({}, states, cities);
     if (Object.values(locations).length === 0) {
-      $('.locations H4').html('&nbsp;');
+      $('.locations #filter_place').html('&nbsp;');
     } else {
-      $('.locations H4').text(Object.values(locations).join(', '));
+      $('.locations #filter_place').text(Object.values(locations).join(', '));
     }
   });
 
@@ -32,9 +32,9 @@ $(document).ready(function () {
     }
     const locations = Object.assign({}, states, cities);
     if (Object.values(locations).length === 0) {
-      $('.locations H4').html('&nbsp;');
+      $('.locations #filter_place').html('&nbsp;');
     } else {
-      $('.locations H4').text(Object.values(locations).join(', '));
+      $('.locations #filter_place').text(Object.values(locations).join(', '));
     }
   });
 
