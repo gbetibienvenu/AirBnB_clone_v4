@@ -80,7 +80,7 @@ function makeHTMLplaces (data) {
               <DIV class="title_box">
                 <H2>${place.name}</H2>
                   <DIV class="price_by_night">
-                    ${place.price_by_night}
+                    $${place.price_by_night}
                   </DIV>
                 </DIV>
                 <DIV class="information">
